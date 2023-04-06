@@ -1,21 +1,32 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
 .cabeçalho {
-    background-color: #e7bce3;
-    color: white;
-    display: flex;
+    background-color: #eb68d1;
+    color: black;
+    padding: 0px 0px;
+    font-size: 20px;
     justify-content: space-around;
-    padding: 24px;
-    font-size: 24px;
-}
+    display: flex;
+    }
 .cabeçalho-imagem { 
     width: 400px;
     height: 400px;
 }
-.cabeçalho-item {
+.cabeçalho-lista-item {
     display: inline-block;
-
+    padding: 24px;
+    margin: 24px;
 }
+.café {
+    background-image: linear-gradient(#eb68d1,#da99cd);
+    color: white;
+    font-size: 21px;
+    padding: 20px 100px;
+}
+.café-título{
+    padding: 24px 0px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
