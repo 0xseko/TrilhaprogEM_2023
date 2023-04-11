@@ -1,3 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+}
+
 .cabeçalho {
     background-color: #eb68d1;
     color: black;
@@ -24,9 +32,15 @@
 .café-título{
     padding: 24px 0px;
 }
-*{
-    padding: 0;
-    margin: 0;
+.Receita-imagem {
+    width: 120px;
 }
+.Receita-div {
+    text-align: left;
+    padding: 24px;
+    margin: 24px;
+
+}
+
 
 
