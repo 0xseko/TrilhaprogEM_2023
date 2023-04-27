@@ -1,76 +1,76 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 body {
     font-family: sans-serif;
 }
-.cabeçalho {
-    background-color: #f39be2;
-    color: rgb(18, 17, 17);
-    padding: 0px 0px;
+.cabecalho{
+    background-color: #f388de;
+    color: black;
+    padding:0px 0px;
     font-size: 20px;
     justify-content: space-around;
     display: flex;
-    }
-.cabeçalho-imagem { 
+}
+.cabecalho-imagem { 
     width: 250px;
     height: 250px;
 }
-.cabeçalho-lista-item {
+.cabecalho-lista-item {
     display: inline-block;
     padding: 24px;
     margin: 24px;
 }
 .cafe {
-    background-image: linear-gradient(#ef8bdb,#eac3e2);
-    color: rgb(17, 17, 17);
+    background-image: linear-gradient(#f684df,#f7b1e9);
+    color: rgb(39, 38, 38);
     font-size: 21px;
-    padding: 0px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 20px 100px;
 }
-.cafe-título{
-    padding: 0px  0px;
-}
-.cafe-imagem {
-    width: 25%;
-    height: 25%;
-    padding: 40px;
-    margin: 10px;
-}
-.cafe-texto {
-    width: 35%;
-    padding: 40px 0px;
-    margin: 0px;
-
-}
-.cafe-texto-um {
-    padding: 10px;
+.cafe-titulo{
+    padding: 24px 0px;
 }
 .Receita-foto{
     width: 120px;
-   
+    color: rgb(20, 20, 20);
+    padding: 0px;
 }
-.Receita-div{
+.Receita-div {
     text-align: center;
-    padding: 40px 40px;
-  
+    background-image: #d997c3;
+    color: rgb(14, 13, 13);
+    font-size: 21px;
+    margin-right: auto;
+    padding: 50px 50px
 }
-  .Receita-todos{
-    background-color: #eac3e2;
+.Receita-titulo-secao{
+    text-align: center;
+    background:#f39dd6;
     padding: 40px;
-    
-  }
-  .Receita-grid {
+
+}
+.Receita-todos{
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-  }
-  .Receita-titulo-secao{
+    grid-template-columns: 20% 20%  20%  20% 20%;
+    background: #f7a7df;
+    padding: 0px;
+}
+.Receita-legenda{
+    padding: 20px;
     text-align: center;
-    padding: 30px;
-  }
+}
+
+.Rodape-imagem{
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+}        
+.Rodape{
+    background-color: rgb(238, 128, 203);
+    color: #161212;
+    text-align: center;
+   }
   
 
 
